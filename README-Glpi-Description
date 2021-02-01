@@ -1,0 +1,20 @@
+************ PLEASE, ADJUST SOME SETTINGS ACCORDINGLY TO YOUR NEEDS ******************* 
+
+Take a look at these files: 
+
+config_db.php
+config-mysql
+
+Also, take a look at glpi.sh to understand NUYVM's GLPI automation 
+
+#######################################################################################
+
+This script assumes that you already have sudo configured for the user wich executes it
+
+Please, download glpi.sh to your machine and make it executable 
+Do sh glpi.sh 
+
+Login to your GLPI server by your browser with user glpi and password glpi
+Don't forget to change this password! 
+
+
