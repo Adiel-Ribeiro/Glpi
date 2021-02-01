@@ -1,0 +1,6 @@
+[mysql]
+socket          = /var/run/mysql/mysql.sock
+
+[client]
+user=root
+host=localhost
