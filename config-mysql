@@ -1,0 +1,4 @@
+alter user 'root'@'localhost' identified by 'P@ssw0rd-#CHANGEME!';
+create database glpi collate utf8_bin character set utf8;
+create user 'glpi'@'localhost' identified by 'P@ssw0rd-#CHANGEME!';
+grant all privileges on glpi.* to 'glpi'@'localhost';
