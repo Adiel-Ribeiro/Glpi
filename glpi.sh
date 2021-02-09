@@ -58,5 +58,7 @@ sudo chflags schg /usr/local/www/glpi/index.php
 sudo rm /usr/local/www/glpi/install/install.php
 fetch -q --no-verify-peer https://raw.githubusercontent.com/Adiel-Ribeiro/Glpi/master/glpi.sql
 mysql glpi --user='root' --password='P@ssw0rd-#CHANGEME!' < glpi.sql
+sudo sh -c "echo upload_tmp_dir = /tmp >> /usr/local/etc/php.ini"
+sudo chown www /tmp
 rm glpi.sql
 sudo reboot
